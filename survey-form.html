@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="styles.css"/>
+<title>Sanctuary PC Cafe</title>
+</head>
+<body>
+  <h1 id="title">Sanctuary PC Caf&eacute</h1>
+  <h2> Customer Satisfaction Survey</h2>
+  <p id="description">We appreciate your feedback!</p>
+  <form id="survey-form">
+    <div>
+    <label id="name-label">Name:
+    <input id="name" type="text" placeholder="e.g. John Doe" required>
+    </div>
+    <div>
+    <label id="email-label">Email: 
+    <input id="email" type="email" placeholder="e.g. johndoe@gmail.com" required>
+    </div>
+    <div>
+    <label id="number-label">Phone:
+    <input id="number" type="number" min="0" max="10" pattern="[0-9]{10}" placeholder="(123)456-7891">
+    </div>
+    <div>
+    <label>How did you hear about us? <select id="dropdown">
+      <option>(select one)</option>
+      <option>Social Media</option>
+      <option>Google Listing</option>
+      <option>Friend</option>
+      <option>Walk-in</option>
+      <option>Other</option> </select>
+      </div>
+    <label>Were you satisfied with your visit?
+    <input type="radio" id="yes" name="answer-button" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="no" name="answer-button" value="no">
+    <label for="no">No</label>
+    <p>What about your experience could be improved? (Check all that apply)</p>
+     <div>
+    <input type="checkbox" value="internet-speed">
+    <label for="internet-speed">Internet speed
+    </div>
+    <div>
+    <input type="checkbox" value="pc-availability">
+    <label for="pc-availability">PC availability
+    </div>
+    <div>
+    <input type="checkbox" value="gaming accessories">
+    <label for="gaming accessories">Gaming accessories
+    </div>
+    <div>
+    <input type="checkbox" value="refreshments">
+    <label for="refreshments">Refreshments
+    </div>
+    <p><label for="textarea">Can you provide more details on your experience?</p>
+    <textarea id="textarea" placeholder="I believe Sanctuary could..."></textarea>
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>
+</html>

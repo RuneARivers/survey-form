@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(to bottom, #000000, #de0000);
+  color: rgb(229, 229, 229);
+  font-family: georgia;
+  margin: 0px;
+  padding: 150px;
+  line-height: 30px;
+  text-align: center
+}
+title, h1 {
+  font-family: serif;
+  font-size: 45px;
+  text-align: center
+}
+h2 {
+  font-family: serif;
+  font-size: 25px;
+  text-align: center
+}
+p, input, label {
+  text-align: center;
+}
+textarea {
+  width: 275px;
+  height:75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 30px
+}
+input[type="text"]{
+  text-align: left
+}
+input[type="email"]{
+  text-align: left
+}
+input[type="number"] {
+  width: 167px;
+  text-align: left;
+}
